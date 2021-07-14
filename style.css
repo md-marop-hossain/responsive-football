@@ -387,6 +387,13 @@
  ----------------------------*/
 
 @media only screen and (min-width: 669px) and (max-width: 992px) {
+  .nav-bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
   .header-section {
     flex-direction: column;
     justify-content: center;
@@ -396,6 +403,7 @@
   .header-image {
     margin: 0 auto;
     margin-top: 40px;
+    width: 100%;
   }
 
   .container {
@@ -405,6 +413,7 @@
 
   .player-section {
     grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
   }
 
   .player {
